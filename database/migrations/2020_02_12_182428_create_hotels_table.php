@@ -18,10 +18,10 @@ class CreateHotelsTable extends Migration
         Schema::create('hotels', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 255);
-            $table->string('email', 255);
+            $table->string('email', 255)->unique();
             $table->string('phone', 255);
             $table->string('address', 255);
-            $table->string('image', 255);
+            $table->string('image', 255)->nullable();
             $table->double('longitude');
             $table->double('latitude');
             $table->timestamps();

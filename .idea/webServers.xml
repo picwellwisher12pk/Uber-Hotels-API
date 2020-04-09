@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5b38d63-ebdb-411c-b293-dcab905df8df" name="uberhotels.amirhameed.com" url="http://amirhameed.com">
+        <fileTransfer host="amirhameed.com" port="22" rootFolder="/home/amirhame/uberhotels.amirhameed.com" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

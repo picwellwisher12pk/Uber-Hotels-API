@@ -82,6 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Uber for Hotels
+                    <small>local</small>
                 </div>
 
                 <div class="links">

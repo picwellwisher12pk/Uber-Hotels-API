@@ -14,6 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/hotels', function () {
-    return App\Hotel::all();
-});
+Route::resource('hotel','HotelController');
+Route::get('hotel/{longitude}/{latitude}','HotelController@indexNearBy');
+Route::resource('hotel.room','RoomController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

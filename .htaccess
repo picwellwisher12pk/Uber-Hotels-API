@@ -1,6 +1,6 @@
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^uberhotels\.amirhameed\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.uberhotels\.amirhameed\.com$
-RewriteRule ^/?$ "https\:\/\/uberhotels\.amirhameed\.com\/public" [R=301,L]
+RewriteCond %{HTTP_HOST} ^uberhotels\.local$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.uberhotels\.local$
+RewriteRule ^/?$ "https\:\/\/uberhotels\.local\/public" [R=301,L]
 

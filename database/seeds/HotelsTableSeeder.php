@@ -15,7 +15,7 @@ class HotelsTableSeeder extends Seeder
         Hotel::truncate();
         $faker = \Faker\Factory::create();
         $faker->addProvider(new Xvladqt\Faker\LoremFlickrProvider($faker));
-        for ($i = 0; $i < 5; $i++) {
+        for ($i = 0; $i < 50; $i++) {
             Hotel::create([
                 'name' => $faker->company,
                 'email' => $faker->unique()->safeEmail,
