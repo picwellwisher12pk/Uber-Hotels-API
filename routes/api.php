@@ -16,3 +16,5 @@ use App\Hotel;
 Route::resource('hotel','HotelController');
 Route::get('hotel/{longitude}/{latitude}','HotelController@indexNearBy');
 Route::resource('hotel.room','RoomController');
+Route::resource('booking','BookingController');
+Auth::routes();
