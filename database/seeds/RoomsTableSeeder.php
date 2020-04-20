@@ -9,6 +9,6 @@ class RoomsTableSeeder extends Seeder
      * @return void
      */ public function run()
     {
-        factory(App\Hotel::class, 20)->create();
+        factory(App\Room::class, 20)->create();
     }
 }
